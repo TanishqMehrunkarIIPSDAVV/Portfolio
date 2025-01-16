@@ -1,0 +1,16 @@
+{
+    "vendor-name": "TanishqMehrunkarIIPSDAVV/Portfolio",
+    "description": "My Portfolio",
+    "authors": [
+        {
+            "name": "Tanishq Mehrunkar",
+            "email": "mehrunkart@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "src/Framework/",
+            "App\\": "src/App/"
+        }
+    }
+}

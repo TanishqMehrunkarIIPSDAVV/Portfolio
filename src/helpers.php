@@ -19,7 +19,7 @@ function basePath($path="")
  */
 function load($name,$data=[])
 {
-    $vp = basePath("App/views/{$name}.php");
+    $vp = basePath("App/{$name}.php");
     if(file_exists($vp))
     {
         extract($data);
@@ -42,4 +42,29 @@ function loadComponent($name,$data=[])
         require_once $cp;
     }
     else echo "Component Path $name does not exist";
+}
+
+/**
+ * Inspect
+ * @param mixed $value
+ * @return void
+ */
+function inspect($value)
+{
+    echo "<pre>";
+    var_dump($value);
+    echo "</pre>";
+}
+ 
+/**
+ * Inspect and Die
+ * @param mixed $value
+ * @return void
+ */
+function inspectDie($value)
+{
+    echo "<pre>";
+    var_dump($value);
+    echo "</pre>";
+    die();
 }

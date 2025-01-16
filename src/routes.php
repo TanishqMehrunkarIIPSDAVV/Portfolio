@@ -1,1 +1,3 @@
 <?php
+
+$router->registerRoute("/","Home");
