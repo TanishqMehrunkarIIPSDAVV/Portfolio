@@ -9,8 +9,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "Framework\\": "src/Framework/",
-            "App\\": "src/App/"
+            "Framework\\": "Framework/",
+            "App\\": "App/"
         }
     }
 }

@@ -1,0 +1,13 @@
+body
+{
+    margin: 0;
+}
+.bg {
+    background: url(../images/4142726.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}

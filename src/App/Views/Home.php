@@ -1,3 +1,7 @@
 <?php
-
-echo "Home";
+loadComponent("Head");
+loadComponent("Tail");
+?>
+<div class="bg">
+    Hello
+</div>
