@@ -1,7 +1,10 @@
 <?php
-loadComponent("Head");
-loadComponent("Tail");
+    loadComponent("Head");
+    loadComponent("Navbar");
 ?>
 <div class="bg">
-    Hello
+    <?=
+        loadComponent("Links");
+    ?>
 </div>
+<?= loadComponent("Tail");?>
