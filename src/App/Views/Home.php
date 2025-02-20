@@ -5,6 +5,7 @@
 <div class="bg">
     <?=
         loadComponent("Links");
+        loadComponent("Title");
     ?>
 </div>
 <?= loadComponent("Tail");?>

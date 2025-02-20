@@ -16,6 +16,12 @@
         data-url="https://www.linkedin.com/in/tanishq-mehrunkar-388b7b204/">
         </i>
     </div>
+    <br>
+    <div class="icon-container">
+        <i class="fa fa-solid fa-phone color-white icon"
+        data-url="tel:+917024888951">
+        </i>
+    </div>
 </div>
 <script>
     document.querySelector(".top-left").addEventListener("click",(e)=>
