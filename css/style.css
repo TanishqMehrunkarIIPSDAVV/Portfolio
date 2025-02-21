@@ -130,7 +130,7 @@ a
   max-width: 900px;
   padding: 30px;
   background: rgba(0, 0, 0, 0.7);
-  border-radius: 10px;
+  border-radius: 20px;
   backdrop-filter: blur(5px);
   display: flex;
   flex-direction: column;
@@ -200,7 +200,7 @@ a
   width: 600px;
   padding: 30px;
   background: rgba(0, 0, 0, 0.7);
-  border-radius: 10px;
+  border-radius: 20px;
   backdrop-filter: blur(5px);
   text-align: center;
   animation: fadeIn 1.5s ease-in-out;
@@ -407,4 +407,18 @@ a
       opacity: 1;
       transform: translateY(0);
   }
+}
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translate(-50%, -60%); }
+  100% { opacity: 1; transform: translate(-50%, -50%); }
+}
+
+@keyframes fadeInLeft {
+  0% { opacity: 0; transform: translateX(-50px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes fadeInRight {
+  0% { opacity: 0; transform: translateX(50px); }
+  100% { opacity: 1; transform: translateX(0); }
 }
